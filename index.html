@@ -23,17 +23,17 @@
     <div id="btm">
       <div id="header">
         <h1>Stay updated!</h1>
-        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        <p id="p">Join 60,000+ product managers receiving monthly updates on:</p>
         <ul>
-          <li>Product discovery and buiding what matters</li>
-          <li>Measuring to ensure updates are a success </li>
-          <li><span>And much more!</span></li>
+          <li><div id="lst">Product discovery and buiding what matters</div></li>
+          <li><div id="lst">Measuring to ensure updates are a success </div></li>
+          <li><div id="lst">And much more!</div></li>
         </ul>
       </div>
       <div id="form">
-        <form id="form">
-          <p>Email address</p>
-          <input type="text"  placeholder="email@company.com" id="text">
+        <form id="form" action="./successpage.html" method="get">
+          <p id="emailtext">Email address</p> <p id="warningtext">Invalid email!</p>
+          <input type="text"  placeholder="email@company.com" id="text" name="text">
           <input type="submit" id="btn" value="Subcribe to monthly newsletter">
         </form>
       </div>
