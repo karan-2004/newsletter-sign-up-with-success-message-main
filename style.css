@@ -124,13 +124,15 @@ ul {
 
     body {
         background-color: hsl(235, 18%, 26%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     .main {
         background-color: white;
         flex-direction: row-reverse;
-        margin: 20vh 20vw 15vh 23vw;
-        width: 50vw;
+        width: 65vw;
         height: 60vh;
         padding: 10px;
         padding-left: 20px;
