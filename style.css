@@ -127,6 +127,8 @@ ul {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100vh;
+        height: 100vh;
     }
     
     .main {
@@ -157,11 +159,11 @@ ul {
     }
 
     #btm p {
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     ul{
-        font-size: .8rem;
+        font-size: 1rem;
         margin-top: 0%;
         margin-bottom: 0%;
     }
