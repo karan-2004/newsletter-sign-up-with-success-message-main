@@ -159,13 +159,15 @@ ul {
     }
 
     #btm p {
-        font-size: 1rem;
+        font-size: 1.3rem;
+        line-height: 1.5
     }
 
     ul{
-        font-size: 1rem;
+        font-size: 1.3rem;
         margin-top: 0%;
         margin-bottom: 0%;
+        line-height: 1.5rem;
     }
 
     #btm input {
